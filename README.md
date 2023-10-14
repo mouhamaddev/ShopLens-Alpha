@@ -1,4 +1,4 @@
-# [New Empty Python Project Base](https://github.com/Neuraxio/New-Empty-Python-Project-Base)
+# [ShopLens-Alpha](https://github.com/mouhamaddev/ShopLens-Alpha)
 
 > This is just what you need to start a new Python project.
 
@@ -37,6 +37,6 @@ There is also my [video on software architecture](https://youtu.be/K4QN27IKr0g?t
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Guillaume Chevalier](https://github.com/guillaume-chevalier) and [Neuraxio Inc.](https://github.com/Neuraxio) have waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [mouhamaddev](https://github.com/mouhamaddev) has waived all copyright and related or neighboring rights to this work.
 
 Citations that link to this repository will be appreciated, but are not required.
