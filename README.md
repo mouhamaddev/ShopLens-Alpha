@@ -1,42 +1,61 @@
-# [ShopLens-Alpha](https://github.com/mouhamaddev/ShopLens-Alpha)
+# ShopLens-Alpha
 
-> This is just what you need to start a new Python project.
+ShopLens-Alpha is an image search engine and shopping API tool that allows users to search for products using their camera. This repository combines two approaches to find products: image comparison and image labeling/tagging.
 
-Simply use this project template to start new python projects.
+## Table of Contents
 
-## Using this template for your project (how to)
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Model Architecture](#model-architecture)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-You can now automatically create a new project based on this template by [clicking here on `Use this template`](https://github.com/Neuraxio/New-Empty-Python-Project-Base/generate), or by clicking on the button above in the repo, as depicted in the image below. If you don't use GitHub, you may as well simply clone this repository. 
+## Introduction
 
-[![](how_to_use_template.jpg)](https://github.com/Neuraxio/New-Empty-Python-Project-Base/generate)
+ShopLens-Alpha is designed to simplify product searching for users. It leverages machine learning techniques to compare images and transform them into labels and tags for efficient product discovery. This README will guide you through using this repository and understanding the project's architecture.
 
-## Adapting it for your own project
+## Getting Started
 
-1. Rename the `project/` folder (and all references to this folder in other files) to customize your project name that is currently named `project` as per the folder's name. 
-2. You can run tests by running `pytest` in the root, or by running `python3 setup.py test`. Code coverage is enabled with pytest-cov.
-3. Edit the `setup.py` of your project to make it truly yours. Remove my email and info from here and put your own info. You may as well delete the full `setup.py` file instead of adapting it if you don't intend to publish your project on `pip` nor on `conda` as  a package. 
-4. Start coding in your now-renamed project folder and add some more tests under the `testing/` folder!
+To get started with this project, you can use this repository as a template by clicking the "Use this template" button [here](https://github.com/mouhamaddev/ShopLens-Alpha/generate). If you prefer not to use GitHub, you can simply clone this repository.
 
-### If building a package: Deploying your new package to PyPI
+## Project Structure
 
-[Upload](https://packaging.python.org/tutorials/packaging-projects/) your project as a package on [PyPI](https://pypi.org/), the Python Package Index, to make it available on `pip`! (optional)
+1. `project/`: Rename this folder to your project name and customize references accordingly.
+2. `tests/`: Contains test cases for the project. You can run tests using `pytest`.
+3. `setup.py`: Modify this file with your project's information for packaging.
+4. `README.md`: You're reading it right now! It's your project's documentation.
 
-To do that, read my short step by step guide on [How to deploy a new package (or version of package) to PyPI](https://github.com/Neuraxio/Neuraxle/wiki/How-to-deploy-a-new-package-(or-version-of-package)-to-PyPI). 
+## Model Architecture
 
-### If building a REST API app (e.g.: SaaS): Structuring your software architecture's layers
+The ShopLens-Alpha project incorporates two main models for its image search engine:
 
-I have recorded here my tips and tricks, what to look for, and how to structure your application for it to be clean in terms of software architecture: https://youtu.be/K4QN27IKr0g?t=1211
+### 1. Image Comparison Model
 
-## Understanding how this template works
+This model compares user-uploaded images with product images to find matching products. It utilizes techniques such as convolutional neural networks (CNNs) to extract features from images and match them with stored product images.
 
-The article [The optimal python project structure](https://awaywithideas.com/the-optimal-python-project-structure/?ref=gucci_neuraxio) by Luke Tonin does a good job at explaining how a template like the present one works. The present template is a bit more complete and complex than in the article, thought, as it already includes a test suite (including a starter test example), and a thorough `setup.py` file for your project to be properly packaged. 
+### 2. Image Labeling/Tagging Model
 
-There is also my [video on software architecture](https://youtu.be/K4QN27IKr0g?t=1211) that can help, in which I do the overview of a full project based on this template, in terms of theoretical software architecture rather than practical how-to use the template. 
+The image labeling/tagging model converts user images into textual labels and tags. These labels and tags are used to search for products with similar characteristics. It employs natural language processing and computer vision techniques to perform this transformation.
+
+## Usage
+
+1. Clone the repository or use it as a template for your own project.
+2. Customize the `project/` folder with your project name and code.
+3. Add more tests under the `tests/` folder.
+4. Modify the `setup.py` file with your project's information for packaging.
+5. Implement the image comparison and labeling/tagging models based on your requirements.
+
+## Contributing
+
+Contributions to ShopLens-Alpha are welcome! If you want to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [mouhamaddev](https://github.com/mouhamaddev) has waived all copyright and related or neighboring rights to this work.
+This project is licensed under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. You are free to use, modify, and distribute this project as you see fit. While not required, citations linking to this repository are appreciated.
 
-Citations that link to this repository will be appreciated, but are not required.
+Enjoy using ShopLens-Alpha for your image search and shopping API needs!
+
