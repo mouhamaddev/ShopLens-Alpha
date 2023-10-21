@@ -49,7 +49,7 @@ The image labeling/tagging model converts user images into textual labels and ta
 
 ## Contributing
 
-Contributions to ShopLens-Alpha are welcome! If you want to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
+Contributions to ShopLens-Alpha are welcome!
 
 Please note that ShopLens-Alpha is currently in its early development stages, and we are actively working to enhance its functionality and features.
 
