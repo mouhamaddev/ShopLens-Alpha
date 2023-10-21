@@ -1,6 +1,6 @@
 # ShopLens-Alpha
 
-ShopLens-Alpha is an image search engine and shopping API tool that allows users to search for products using their camera. This repository combines two approaches to find products: image comparison and image labeling/tagging.
+ShopLens-Alpha is an image search engine and shopping API tool that allows users to search for products using their camera. This project combines two approaches to find products: image comparison and image labeling/tagging.
 
 ## Table of Contents
 
